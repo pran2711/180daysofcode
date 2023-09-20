@@ -24,7 +24,7 @@ int main(){
 // 3 => 4 bit binary = 0011
 // -6 => 4 bit binary = 1010
 
-// Q4. If we have only 5 bits, How 13 and -16 will be written in 5 bits.
+// Q5. If we have only 5 bits, How 13 and -16 will be written in 5 bits.
 
 //  13 => 5 bit binary = 01101
 //  -16 => 5 bit binary = 10000
