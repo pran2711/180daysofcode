@@ -38,7 +38,34 @@ int main(){
 }
 
 
-// Q2. Print 
+// Q2. Print Floyd's Triangle
+// 1  
+// 2 3  
+// 4 5 6  
+// 7 8 9 10  
+// 11 12 13 14 15 
+
+
+int main(){
+
+   int n;
+   cout<<"Enter the number: ";
+   cin>>n;
+   int count = 1;
+   for(int r = 1; r <=n; r++){
+   
+
+     int c;
+     for(c = count; c<= count+r-1;c++){
+        cout<<c<<" ";
+     }
+     count = c;
+     cout<<endl;
+   }
+    
+}
+
+// Q3. Print 
 
 // 1
 
@@ -88,7 +115,5 @@ int main(){
       count = starter;
       cout<<endl;
    }
-
-   cout<<"count: "<<count;
     
 }
