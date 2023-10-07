@@ -28,7 +28,7 @@ int solve(int A, int B, int C) {
 // Q 2. Number of 1 Bits
 // Given a positive integer N, print count of set bits in it. 
 
- int setBits(int N) {
+int setBits(int N) {
         // Write Your Code here
         int ans = 0;
         while(N){
@@ -46,17 +46,14 @@ int solve(int A, int B, int C) {
 // Q3. Bit Difference
 // You are given two numbers A and B. The task is to count the number of bits needed to be flipped to convert A to B.
 
-int rem(int N){
-        return N%2;
-    }
     
 int countBitsFlip(int a, int b){
         
         int ans =0;
         // Your logic here
         while(a!=0 || b!=0){
-            int ans1 = rem(a);
-            int ans2 = rem(b);
+            int ans1 = a%2;
+            int ans2 = b%2;
             
             if(ans1 != ans2)
             ans+=1;
